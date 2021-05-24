@@ -30,18 +30,18 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.php">Strona Główna</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Strona Główna</a>
                   </li>
                 </ul>
                 <ul class="navbar-nav me-e mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">Logowanie</a>
+                        <a class="nav-link" href="login.html">Logowanie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.php">Rejestracja</a>
+                        <a class="nav-link" href="register.html">Rejestracja</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="cart.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <a class="nav-link active" href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path> </svg></a>
                     </li>
                 </ul>
@@ -95,7 +95,7 @@
                                     echo "                             <tr>
                                     <td><img src='produkty/subwoofer/subwoofer.png' style='width: 50px;' /> </td>
                                     <td>Subwoofer</td>
-                                    <form method='post' target='cart.php'>
+                                    <form method='post' target='cart.html'>
                                     <td><input class='form-control' type='number' min=0 name='u_subs' value=$n_subs /></td>
                                     <td class='text-right'>".($n_subs*1300)." zł</td>
                                     <td class='text-right'><button type='submit' class='btn btn-sm btn-success'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-counterclockwise' viewBox='0 0 16 16'>
@@ -109,7 +109,7 @@
                                     echo "                             <tr>
                                     <td><img src='produkty/stand/podstawka.png' style='width: 50px;' /> </td>
                                     <td>Podstawka</td>
-                                    <form method='post' target='cart.php'>
+                                    <form method='post' target='cart.html'>
                                     <td><input class='form-control' type='number' min=0 name='u_stands' value=$n_stands /></td>
                                     <td class='text-right'>".($n_stands*120)." zł</td>
                                     <td class='text-right'><button type='submit' class='btn btn-sm btn-success'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-counterclockwise' viewBox='0 0 16 16'>
@@ -123,7 +123,7 @@
                                     echo "                             <tr>
                                     <td><img src='produkty/glosniki/glosniki.png' style='width: 50px;' /> </td>
                                     <td>Glośniki</td>
-                                    <form method='post' target='cart.php'>
+                                    <form method='post' target='cart.html'>
                                     <td><input class='form-control' type='number' min=0 name='u_speakers' value=$n_speakers /></td>
                                     <td class='text-right'>".($n_speakers*779)." zł</td>
                                     <td class='text-right'><button type='submit' class='btn btn-sm btn-success'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-counterclockwise' viewBox='0 0 16 16'>
@@ -188,7 +188,7 @@
                 <div class="col mb-2">
                     <div class="row">
                         <div class="col-sm-6  col-md-6">
-                            <a href="index.php"><button class="btn btn-block btn-light">Powrót do zakupów</button></a>
+                            <a href="index.html"><button class="btn btn-block btn-light">Powrót do zakupów</button></a>
                         </div>
                         <div class="col-sm-6 col-md-6 text-right">
                             <button class="btn btn-lg btn-block btn-success text-uppercase">Do kasy</button>
