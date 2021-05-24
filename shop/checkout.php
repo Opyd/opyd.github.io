@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <title>AudioVoodo</title>
+    <style>
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100vw;
+  max-height: 200px;
+  margin-bottom: 1vw;
+}
+    </style>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-1">Sklep AudioVodoo</h1>
+          <p class="lead">Najlepsze produkty za najwyższą cenę.</p>
+        </div>
+      </div>
+
+
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.php">AudioVodoo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Strona Główna</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-e mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Logowanie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.php">Rejestracja</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path> </svg> Koszyk</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+      <div class="container">
+        <div class="py-5 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+          <h2>Finalizacja płatności</h2>
+        </div>
+      
+        <div class="row">
+          <div class="col-md-4 order-md-2 mb-4">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text-muted">Twoje zamówienie</span>
+              <span class="badge badge-secondary badge-pill">3</span>
+            </h4>
+            <ul class="list-group mb-3">
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                  <h6 class="my-0">Produkt</h6>
+                  <small class="text-muted">Krótki opis</small>
+                </div>
+                <span class="text-muted">$12</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                  <h6 class="my-0">Produkt</h6>
+                  <small class="text-muted">Krótki opis</small>
+                </div>
+                <span class="text-muted">$8</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                  <h6 class="my-0">Produkt</h6>
+                  <small class="text-muted">Krótki opis</small>
+                </div>
+                <span class="text-muted">$5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between bg-light">
+                <div class="text-success">
+                  <h6 class="my-0">Kod promocyjny</h6>
+                  <small>PRZYKŁAD</small>
+                </div>
+                <span class="text-success">-$5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span>Łącznie (USD)</span>
+                <strong>$20</strong>
+              </li>
+            </ul>
+      
+            <form class="card p-2">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Kod rabatowy">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-secondary">Użyj</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Adres do dostawy</h4>
+            <form class="needs-validation" novalidate="">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName">Imię</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Wprowadź poprawne dane.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName">Nazwisko</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Wprowadź poprawne dane.
+                  </div>
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="username">Nazwa uzytkownika</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="username" placeholder="user" required="">
+                  <div class="invalid-feedback" style="width: 100%;">
+                    Wprowadź poprawną nazwe użytkownika
+                  </div>
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="email">Email <span class="text-muted">(Opcjonalne)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                  Wprowadź poprawny email.
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="address">Adres</label>
+                <input type="text" class="form-control" id="address" placeholder="ul. Słoneczna 1" required="">
+                <div class="invalid-feedback">
+                  Wprowadź adres
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="address2">Druga część adresu<span class="text-muted">(Opcjonalne)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Nr. domu lub mieszkania">
+              </div>
+      
+              <div class="row">
+                <div class="col-md-5 mb-3">
+                  <label for="country">Kraj</label>
+                  <select class="custom-select d-block w-100" id="country" required="">
+                    <option value="">Wybierz...</option>
+                    <option>Polska</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Wybierz poprawny kraj.
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="state">Wojewódźtwo</label>
+                  <select class="custom-select d-block w-100" id="state" required="">
+                    <option value="">Wybierz...</option>
+                    <option>Opolskie</option>
+                    <option>Lubuskie</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Wprowadź poprawne wojewódźtwo.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="zip">Kod pocztowy</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Kod pocztowy jest wymagany.
+                  </div>
+                </div>
+              </div>
+              <hr class="mb-4">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="same-address">
+                <label class="custom-control-label" for="same-address">Adres dostawy jest taki sam jak adres rozliczeniowy.</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="save-info">
+                <label class="custom-control-label" for="save-info">Zapisz dane do następnych zamówień.</label>
+              </div>
+              <hr class="mb-4">
+              <h4 class="mb-3">Przewoźnik</h4>
+              <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                  <div>
+                    <input id="credit" name="shipMethod" type="radio" class="custom-control-input" checked="" required="">
+                    <large class="">Paczkomat</small>
+                  </div>
+                  <span class="text-muted">$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                  <div>
+                    <input id="credit" name="shipMethod" type="radio" class="custom-control-input" checked="" required="">
+                    <large class="">Kurier</small>
+                  </div>
+                  <span class="text-muted">$10</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                  <div>
+                    <input id="credit" name="shipMethod" type="radio" class="custom-control-input" checked="" required="">
+                    <large class="">Odbiór w sklepie</small>
+                  </div>
+                  <span class="text-muted">$0</span>
+                </li>
+                </ul>
+              <div class="row">
+              <hr class="mb-4">
+              
+              <h4 class="mb-3">Płatność</h4>
+      
+              <div class="d-block my-3">
+                <div class="custom-control custom-radio">
+                  <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                  <label class="custom-control-label" for="credit">Karta kredytowa</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                  <label class="custom-control-label" for="blik">Blik</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                  <label class="custom-control-label" for="paypal">PayPal</label>
+                </div>
+              </div>
+              <div class="row">
+
+                <div class="col-md-6 mb-3">
+                  <label for="cc-number">Nr. karty kredytowej</label>
+                  <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Numer karty jest wymagany.
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-3">
+                  <label for="cc-expiration">Data ważności</label>
+                  <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Data ważności jest wymagana.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="cc-cvv">CCV</label>
+                  <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Numer CCV jest wymagany
+                  </div>
+                </div>
+              </div>
+              <hr class="mb-4">
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Kontynuuj</button>
+            </form>
+          </div>
+        </div>
+      
+      </div>
+        <script src="checkout/form-walidacja.js"></script>
+    </body>
+</php>
