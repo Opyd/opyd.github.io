@@ -1,0 +1,27 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: Logos Media (Weni Solution).
+      url: "https://weni.eu/"
+      location: Nysa, Poland
+      # company overview
+      overview: Weni Solution is a manufacturer of industrial CNC laser equipment
+    positions:
+      - designation: Intern - Documentation maintainer for CNC laser equipment
+        start: July 2021
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        end: September 2022
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - Create, update and translate technical documentation for industrial laser equipment.
+          - Design and develop a program to estimate laser resource consumption in WPF (C#)

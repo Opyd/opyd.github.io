@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: "Bachelor of Software Engineering (Specialization: Internet Systems)"
+    icon: fa-graduation-cap
+    timeframe: 2019 - Present
+    institution:
+      name: Państwowa Akademia Nauk Stosowanych w Nysie
+      url: "https://pans.nysa.pl/"
+    grade: #(optional)
+      scale: GPA
+      achieved: 4.5
+      outOf: 5
+
+  - name: IT technician
+    icon: fa-school
+    timeframe: 2015-2019
+    institution:
+      name: Technikum nr. 2 w Nysie

@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  - name: JavaScript Development
+    logo: /images/sections/skills/js.png
+    summary: "Capable of writing, documenting application in JavaScript (ES6+)."
+    url: "https://www.javascript.com/"
+
+  - name: HTML + CSS
+    logo: /images/sections/skills/code.svg
+    summary: "Capable of creating responsive and good looking websites with HTML + CSS (SCSS and TailwindCSS)"
+
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced with git-based development. Mostly Github."
+    url: "https://git-scm.com/"
+
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "Using dockerized programs and writing own docker-files."
+    url: "https://www.docker.com/"
+
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Using as the second main operating system."
+
+  - name: Databases (SQL and NoSQL)
+    logo: /images/sections/skills/db.png
+    summary: "Capable of design and maintain databases, including MySQL, MS SQL, PostgreSQL and MongoDB"
+
+  - name: Other
+    logo: /images/sections/skills/more.png
+    summary: "Basic knowledge of Java, .NET and C++"

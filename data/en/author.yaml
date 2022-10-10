@@ -1,0 +1,17 @@
+# some information about you
+name: "Daniel Opyd"
+nickname: "Daniel"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "danielopyd99@gmail.com"
+  github: Opyd
+
+# some summary about what you do
+summary:
+  - I am a Fullstack Developer
+  - I am a Student
+  - I love modern Web
+  - I love to work with some fun projects
