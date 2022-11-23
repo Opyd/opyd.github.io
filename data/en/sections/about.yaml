@@ -39,6 +39,11 @@ resourceLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
+  - type: certification
+    name: Google Cloud Certifications
+    url: "https://www.cloudskillsboost.google/public_profiles/2bc23be8-4d56-4d94-94a3-e49f9ec9b940"
+    badge: "https://me.devoteam.com/wp-content/uploads/sites/10/2021/02/google-cloud-logo.svg"
+
   - type: soft-skill-indicator
     name: Teamwork
     percentage: 85
