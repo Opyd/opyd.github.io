@@ -11,6 +11,17 @@ section:
 # Your experiences
 experiences:
   - company:
+      name: MaxWebStudio
+      url: "http://maxwebstudio.eu/en/"
+      location: Remote (Gdynia, Poland)
+      overview: Websites, presentations of facilities and services, Internet marketing
+    positions:
+      - designation: "Web developer - creating interactive travel guides"
+        start: October 2022
+        end: January 2023
+        responsibilities:
+        - Creating and maintaining panoramic travel guides for a client in the US
+  - company:
       name: Logos Media (Weni Solution).
       url: "https://weni.eu/"
       location: Nysa, Poland
@@ -25,3 +36,5 @@ experiences:
         responsibilities:
           - Create, update and translate technical documentation for industrial laser equipment.
           - Design and develop a program to estimate laser resource consumption in WPF (C#)
+  
+

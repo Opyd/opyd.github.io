@@ -22,9 +22,9 @@ projects:
   - name: Next Album
     logo: /images/sections/projects/music.svg
     repo: https://github.com/Opyd/next-album # If your project is a public repo on GitHub, then provide this link. it will show star count.
-    #url: "http://srv12.mikr.us:30109/" # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-    summary: Fullstack application for creating and managing music playlists. Created with Nuxt.js & Nest.js & MongoDB. Check it out here http://srv12.mikr.us:30109/
-    tags: ["hobby", "nest", "vue", "mongodb"]
+    #url: "https://nextalbum.bieda.it/" # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+    summary: Fullstack application for creating and managing music playlists. Created with Nuxt.js & Nest.js & MongoDB. Check it out here https://nextalbum.bieda.it/
+    tags: ["nest", "vue","nuxt", "mongodb", "docker", "nginx"]
 
   - name: Quiz application
     logo: /images/sections/projects/Laravel.png
