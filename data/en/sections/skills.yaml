@@ -33,7 +33,7 @@ skills:
 
   - name: Laravel
     logo: /images/sections/projects/Laravel.png
-    summary: "Familiarity with Laravel, a PHP framework for building web applications. Ability to use Laravel to build simple web applications with CRUD functionality and database integration."
+    summary: "Familiarity with Laravel, a PHP framework. Ability to use Laravel to build simple web applications with CRUD functionality and database integration."
     url: "https://laravel.com/"
 
   - name: Databases (SQL and NoSQL)
