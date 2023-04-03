@@ -10,15 +10,15 @@ section:
   # hideTitle: true
 
 degrees:
-  - name: "Bachelor of Software Engineering (Specialization: Internet Systems)"
+  - name: "Bachelor of Computer Science (Specialization: Internet Systems)"
     icon: fa-graduation-cap
-    timeframe: 2019 - Present
+    timeframe: 2019 - 2023
     institution:
       name: Państwowa Akademia Nauk Stosowanych w Nysie
       url: "https://pans.nysa.pl/"
     grade: #(optional)
-      scale: GPA
-      achieved: 4.5
+      scale: Diploma Grade
+      achieved: 5
       outOf: 5
 
   - name: IT technician
