@@ -29,11 +29,15 @@ socialLinks:
     icon: "fab fa-github"
     url: "https://www.github.com/opyd"
 
+  - name: Linkedin
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/opyd/"
+
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-  # - title: "My Resume"
-  #   url: "files/resume.pdf"
+  - title: "My Resume"
+    url: "files/Daniel_Opyd_Resume_ENG.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
@@ -45,6 +49,11 @@ badges:
     badge: "https://me.devoteam.com/wp-content/uploads/sites/10/2021/02/google-cloud-logo.svg"
 
   - type: soft-skill-indicator
+    name: Hard Working
+    percentage: 95
+    color: orange
+
+  - type: soft-skill-indicator
     name: Teamwork
     percentage: 85
     color: blue
@@ -54,10 +63,7 @@ badges:
     percentage: 80
     color: yellow
 
-  - type: soft-skill-indicator
-    name: Hard Working
-    percentage: 85
-    color: orange
+
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
