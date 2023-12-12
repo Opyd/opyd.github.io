@@ -11,6 +11,21 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+  - name: PHP
+    logo: /images/sections/skills/php.svg
+    summary: "Proficient in modern PHP 8+, with expertise in object-oriented programming, namespaces, traits, and advanced concepts like asynchronous operations. Skilled in closures and adept at leveraging the latest syntax enhancements introduced in PHP 7 and beyond."
+    url: "https://www.javascript.com/"
+
+  - name: Vue
+    logo: /images/sections/skills/vue.svg
+    summary: "Skilled in using Vue.js (2 & 3) to create complex and responsive web applications. Familiarity  with Vue.js tooling and libraries, including Vuex and Pinia for state management and Vue Router for client-side routing. Experience with Nuxt.js "
+    url: "https://vuejs.org/"
+
+  - name: Wordpress
+    logo: /images/sections/skills/wp.svg
+    summary: "Specialized in WordPress development, with a focus on crafting custom solutions tailored to specific project requirements. Proficient in creating bespoke themes, plugins, and custom functionalities to enhance the overall user experience."
+    url: "https://en.wordpress.org/"
+
   - name: JavaScript
     logo: /images/sections/skills/js.png
     summary: "Strong understanding of JavaScript concepts, including closures, asynchronous programming, and ES6+ syntax."
@@ -21,41 +36,39 @@ skills:
     summary: "Good understanding of TypeScript syntax and concepts, including interfaces, classes, generics, and modules."
     url: "https://www.typescriptlang.org/"
 
-  - name: Vue
-    logo: /images/sections/skills/vue.svg
-    summary: "Skilled in using Vue.js to create complex and responsive web applications. Familiarity  with Vue.js tooling and libraries, including Vuex for state management and Vue Router for client-side routing. Experience with Nuxt.js "
-    url: "https://vuejs.org/"
-
-  - name: NestJS
-    logo: /images/sections/skills/nest.svg
-    summary: "Skilled in using NestJS to create modular and maintainable code. Experience with Nest CLI and ODM like Mongoose for database integration, and Swagger for API documentation. "
-    url: "https://nestjs.com/"
-
   - name: Laravel
     logo: /images/sections/projects/Laravel.png
     summary: "Familiarity with Laravel, a PHP framework. Ability to use Laravel to build simple web applications with CRUD functionality and database integration."
     url: "https://laravel.com/"
 
+  - name: NestJS
+    logo: /images/sections/skills/nest.svg
+    summary: "Skilled in using NestJS to create modular and maintainable code. Experience with Nest CLI and ODM like Mongoose for database integration, and Swagger for API documentation."
+    url: "https://nestjs.com/"
+
+  - name: Cloud Services
+    logo: /images/sections/skills/cloud.svg
+    summary: "Leveraging insights gained from the Google Skill Boost program, I've honed my proficiency in Google Cloud services. Currently expanding my cloud expertise by delving into AWS, with a commitment to staying at the forefront of cloud technologies for versatile and scalable solutions."
+    url: "https://www.cloudskillsboost.google/public_profiles/2bc23be8-4d56-4d94-94a3-e49f9ec9b940"
+
   - name: Databases (SQL and NoSQL)
     logo: /images/sections/skills/db.png
-    summary: "Capable of design and maintain databases, including MySQL, MS SQL, PostgreSQL and MongoDB"
+    summary: "Capable of designing and maintaining databases, including MySQL, MS SQL, PostgreSQL, and MongoDB."
 
   - name: Docker
     logo: /images/sections/skills/docker.svg
-    summary: "Using dockerized programs and writing own docker-files."
+    summary: "Elevating development efficiency through the implementation of dockerized environments, coupled with the ability to craft personalized Dockerfiles for streamlined workflows."
     url: "https://www.docker.com/"
 
   - name: Linux
     logo: /images/sections/skills/linux.png
-    summary: "Using as the second main operating system."
+    summary: "Adept in Linux environments with a strong command over various distributions. Additionally, proficient in leveraging Windows Subsystem for Linux (WSL) for seamless cross-platform development."
 
   - name: Git
     logo: /images/sections/skills/git.png
-    summary: "Familiar with git-based workflow."
+    summary: "Experienced in utilizing Git for version control, with a proven track record of successfully managing and collaborating on large-scale projects. Proficient in branching strategies, conflict resolution, and employing best practices for efficient collaboration within a team setting."
     url: "https://git-scm.com/"
-
-  
 
   - name: Other
     logo: /images/sections/skills/more.png
-    summary: "Familiar with Java, Java Spring, ASP.NET and Python"
+    summary: "Familiarity with Java, Java Spring, ASP.NET and Python"

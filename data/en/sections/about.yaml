@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Full-stack Software Engineer
 # your company information
 
 # your resume. this file path should be relative to you "static" directory
@@ -16,7 +16,7 @@ designation: Software Engineer
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a fresh graduate in computer science, which I am fascinated by. I try to keep up to date with the news in the world of programming, especially about the web industry. I am constantly learning new things."
+summary: "I am currently pursuing a master's degree in computer science, specializing in cloud computing. I have a year of hands-on experience in full-stack web development and remain dedicated to staying updated on programming trends, particularly within the dynamic web industry, as I consistently strive to expand my skill set in this ever-evolving field"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -55,12 +55,12 @@ badges:
 
   - type: soft-skill-indicator
     name: Teamwork
-    percentage: 85
+    percentage: 90
     color: blue
 
   - type: soft-skill-indicator
     name: Creativity
-    percentage: 80
+    percentage: 85
     color: yellow
 
 

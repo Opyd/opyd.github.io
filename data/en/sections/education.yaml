@@ -10,7 +10,14 @@ section:
   # hideTitle: true
 
 degrees:
-  - name: "Bachelor of Computer Science (Specialization: Internet Systems)"
+  - name: "Master of Science in Computer Science (Specialization: Cloud computing)"
+    icon: fa-graduation-cap
+    timeframe: 2023 - present
+    institution:
+      name: WSB University
+      url: "https://wsb.edu.pl/en"
+
+  - name: "Bachelor of Computer Science (Specialization: Internet systems)"
     icon: fa-graduation-cap
     timeframe: 2019 - 2023
     institution:

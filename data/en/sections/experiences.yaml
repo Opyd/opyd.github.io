@@ -11,6 +11,20 @@ section:
 # Your experiences
 experiences:
   - company:
+      name: ZawódTyper
+      url: "https://zawodtyper.pl/"
+      location: Remote (Warsaw, Poland)
+      overview: The largest community of sports bettors in Poland.
+    positions:
+      - designation: "Full-stack Developer (PHP, Vue.js, Wordpress)"
+        start: May 2023
+        responsibilities:
+          - Developing REST API endpoints with a focus on robust security measures to ensure data integrity and user protection.
+          - Creating tailored solutions within the WordPress CMS, designed to streamline and enhance workflow efficiency for other employees.
+          - Crafting frontend solutions using Vue.js, Tailwind CSS, and Pinia state management, ensuring a seamless and responsive user interface.
+          - Designing and managing MySQL tables, crafting and updating SQL queries.
+          - Leveraging websockets and integrating Redis to implement instant notification systems, ensuring efficient and real-time communication for timely updates.
+  - company:
       name: MaxWebStudio
       url: "http://maxwebstudio.eu/en/"
       location: Remote (Gdynia, Poland)
