@@ -11,9 +11,9 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-  - name: PHP
-    logo: /images/sections/skills/php.svg
-    summary: "Proficient in modern PHP 8+, with expertise in object-oriented programming, namespaces, traits, and advanced concepts like asynchronous operations. Skilled in closures and adept at leveraging the latest syntax enhancements introduced in PHP 7 and beyond."
+  - name: JavaScript
+    logo: /images/sections/skills/js.png
+    summary: "Strong understanding of JavaScript concepts, including closures, asynchronous programming, and ESNext syntax."
     url: "https://www.javascript.com/"
 
   - name: Vue
@@ -21,14 +21,9 @@ skills:
     summary: "Skilled in using Vue.js (2 & 3) to create complex and responsive web applications. Familiarity  with Vue.js tooling and libraries, including Vuex and Pinia for state management and Vue Router for client-side routing. Experience with Nuxt.js "
     url: "https://vuejs.org/"
 
-  - name: Wordpress
-    logo: /images/sections/skills/wp.svg
-    summary: "Specialized in WordPress development, with a focus on crafting custom solutions tailored to specific project requirements. Proficient in creating bespoke themes, plugins, and custom functionalities to enhance the overall user experience."
-    url: "https://en.wordpress.org/"
-
-  - name: JavaScript
-    logo: /images/sections/skills/js.png
-    summary: "Strong understanding of JavaScript concepts, including closures, asynchronous programming, and ES6+ syntax."
+  - name: PHP
+    logo: /images/sections/skills/php.svg
+    summary: "Proficient in modern PHP 8+, with expertise in object-oriented programming, namespaces, traits, and advanced concepts like asynchronous operations. Skilled in closures and adept at leveraging the latest syntax enhancements introduced in PHP 7 and beyond."
     url: "https://www.javascript.com/"
 
   - name: TypeScript
@@ -36,15 +31,20 @@ skills:
     summary: "Good understanding of TypeScript syntax and concepts, including interfaces, classes, generics, and modules."
     url: "https://www.typescriptlang.org/"
 
-  - name: Laravel
-    logo: /images/sections/projects/Laravel.png
-    summary: "Familiarity with Laravel, a PHP framework. Ability to use Laravel to build simple web applications with CRUD functionality and database integration."
-    url: "https://laravel.com/"
-
   - name: NestJS
     logo: /images/sections/skills/nest.svg
     summary: "Skilled in using NestJS to create modular and maintainable code. Experience with Nest CLI and ODM like Mongoose for database integration, and Swagger for API documentation."
     url: "https://nestjs.com/"
+
+  - name: Wordpress
+    logo: /images/sections/skills/wp.svg
+    summary: "Specialized in WordPress development, with a focus on crafting custom solutions tailored to specific project requirements. Proficient in creating bespoke themes, plugins, and custom functionalities to enhance the overall user experience."
+    url: "https://en.wordpress.org/"
+
+  - name: Laravel
+    logo: /images/sections/projects/Laravel.png
+    summary: "Familiarity with Laravel, a PHP framework. Ability to use Laravel to build simple web applications with CRUD functionality and database integration."
+    url: "https://laravel.com/"
 
   - name: Cloud Services
     logo: /images/sections/skills/cloud.svg
