@@ -44,13 +44,18 @@ socialLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
   - type: certification
+    name: AWS Academy Cloud Foundations
+    url: "https://www.credly.com/badges/bdc3e675-0f13-4e8f-9f2a-71c211913c12/"
+    badge: "https://images.credly.com/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png"
+
+  - type: certification
     name: Google Cloud Certifications
     url: "https://www.cloudskillsboost.google/public_profiles/2bc23be8-4d56-4d94-94a3-e49f9ec9b940"
     badge: "https://me.devoteam.com/wp-content/uploads/sites/10/2021/02/google-cloud-logo.svg"
 
   - type: soft-skill-indicator
     name: Hard Working
-    percentage: 95
+    percentage: 100
     color: orange
 
   - type: soft-skill-indicator
@@ -60,7 +65,7 @@ badges:
 
   - type: soft-skill-indicator
     name: Creativity
-    percentage: 85
+    percentage: 90
     color: yellow
 
 
