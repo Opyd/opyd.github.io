@@ -23,14 +23,14 @@ projects:
     logo: /images/sections/projects/trophy.svg
     repo: https://github.com/Opyd/tbuddy # If your project is a public repo on GitHub, then provide this link. it will show star count.
     #url: "https://nextalbum.bieda.it/" # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-    summary: A web application that allows users to create community gaming tournaments and the teams that will then participate in them. Check it out https://tbuddy.toadres.pl/
+    summary: A web application that allows users to create community gaming tournaments and the teams that will then participate in them. Check it out https://tbuddy.opyd.ovh
     tags: ["spa", "nest", "vue", "nuxt", "mongodb", "docker", "nginx"]
 
   - name: Next Album
     logo: /images/sections/projects/music.svg
     repo: https://github.com/Opyd/next-album # If your project is a public repo on GitHub, then provide this link. it will show star count.
     #url: "https://nextalbum.bieda.it/" # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-    summary: Full-stack application for creating and managing music playlists. Created with Nuxt.js & Nest.js & MongoDB. Check it out https://nextalbum.toadres.pl/
+    summary: Full-stack application for creating and managing music playlists. Created with Nuxt.js & Nest.js & MongoDB. Check it out https://next-album.opyd.ovh
     tags: ["nest", "vue", "nuxt", "mongodb", "docker", "nginx"]
 
   - name: Database client
